@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tech newsletter</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <img class="logo" src="src/img/technews.png" alt="Tech News Logo">
+    <H1>TECHNEWS</H1>
+  </header>
+
+  <main>
+  <form name= "newsletter_registration" method="get" action="index.html"> 
+    
+<div class="form_header"><h2 class="titulo"">Sign up for our newsletter</h2></div>
+
+<div class="input_group">
+
+<div class="label-box">
+<label for="name" class="label_name">Name:</label><br>
+<label for="lastname" class="label_lastname">Last Name:</label><br>
+</div>
+  
+<div class="input-box">
+<input type="text" name="name" id="name" placeholder="type your name" required>
+  
+<input type="text" name="lastname" id="lastname" placeholder="type your last name">
+<br><br>
+</div>
+
+<div class="label-box">
+<label for="phone" class="label_phone">Phone: </label><br>
+<label for="email" class="label_email">E-mail:</label><br>
+</div>
+
+<div class="input_contatos">
+<input type="number" name="DDD" id="ddd" placeholder="(DDD)" class="input_dddphone">
+  
+<input type="tel" name="phone" id="phone" placeholder="type your phone" class="input_phone">
+
+<input type="email" name="email" id="email" placeholder="type your email" required>
+</div>
+
+<div class="password_box">
+<div class="label-box">
+<label for="password">Password:</label><br>
+<label for="passwordagain" class="label_confirmpassword"">Confirm your password:</label><br>
+</div>
+<input type="password" name="password" id="password" placeholder="type your password" required>
+
+<input type="password" name="passwordagain" id="passwordagain" placeholder="Confirm your password" required>
+  
+<br><br>
+</div>
+  
+<div class="birthday_box">
+<label for="birthday">Put your birthday</label> 
+<input type="date" name="birthday" placeholder="your birthday" id="birthday" class="input_birthday">
+<br><br>
+</div>
+
+<fieldset>
+<legend>What are your interests:</legend>
+
+<label for="Consoles">Consoles</label>
+<input type="checkbox" name="consoles" id="consoles" value="consoles" class="input_ckeckbox">
+  
+<label for="cellphone">Cellphone</label>
+<input type="checkbox" name="cellphone" id="cellphone" value="cellphone" class="input_ckeckbox"><br>
+
+<label for="computer_laptop">Computer/laptop</label>
+<input type="checkbox" name="computer_laptop" id="computer_laptop" value="computer_laptop" class="input_ckeckbox">
+
+<label for="peripherals">Peripherals</label>
+<input type="checkbox" name="peripherals" id="peripherals" value="peripherals" class="input_ckeckbox">
+
+<label for="companies_softwares">Companies and softwares</label>
+<input type="checkbox" name="companies_softwares" id="companies_softwares" value="companies_softwares" class="input_ckeckbox">
+
+<label for="others">Others</label>
+<input type="checkbox" name="others" id="others" value="others" class="input_ckeckbox">
+</fieldset>
+<br><br>
+
+  <div class="label-box">
+<label for="address" class="label-address"> Address </label>
+  <br>
+<label for="state" class="label-state">State</label><br>
+</div>
+  
+<div class="input-final">
+<input type="text" name="address" id="address" placeholder="type your address"">
+
+<br>
+
+
+<select name="state" id="state">
+  <option value="AC">Acre</option>
+  <option value="AL">Alagoas</option>
+  <option value="AP">Amapá</option>
+  <option value="AM">Amazonas</option>
+  <option value="BA">Bahia</option>
+  <option value="CE">Ceará</option>
+  <option value="DF">Distrito Federal</option>
+  <option value="ES">Espírito Santo</option>
+  <option value="GO">Goiás</option>
+  <option value="MA">Maranhão</option>
+  <option value="MT">Mato Grosso</option>
+  <option value="MS">Mato Grosso do Sul</option>
+  <option value="MG">Minas Gerais</option>
+  <option value="PA">Pará</option>
+  <option value="PB">Paraíba</option>
+  <option value="PR">Paraná</option>
+  <option value="PE">Pernambuco</option>
+  <option value="PI">Piauí</option>
+  <option value="RJ">Rio de Janeiro</option>
+  <option value="RN">Rio Grande do Norte</option>
+  <option value="RS">Rio Grande do Sul</option>
+  <option value="RO">Rondônia</option>
+  <option value="RR">Roraima</option>
+  <option value="SC">Santa Catarina</option>
+  <option value="SP">São Paulo</option>
+  <option value="SE">Sergipe</option>
+  <option value="TO">Tocantins</option>
+</select>
+</div>
+<br><br>
+
+<div class="submit-box">
+<input type="submit" name="value" class="input-submit">
+</div>
+</div>
+  </div>
+
+</form>
+</main>
+    
+</body>
+
+</html>
