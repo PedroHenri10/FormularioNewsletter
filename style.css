@@ -201,3 +201,14 @@ select{
     border: 2px solid #000080;
   }
 }
+
+@media screen and (min-width: 1064px) {
+  .container{
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  form{
+    width: 100%;
+  }
+}
