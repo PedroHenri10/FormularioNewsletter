@@ -61,12 +61,13 @@ form{
 
 input{
   height: 33px;
-  margin:0.15rem 0;
+  margin:0.12rem 0;
   padding: 0.8rem 1.2rem;
   border: none;
   border-radius: 10px;
   box-shadow: 1px 1px 6px #4D4DFF;
   background-color: #dfe9f5;
+  outline-color: #000080;
 }
 
 input:focus {
@@ -91,7 +92,7 @@ input[type=checkbox]{
   align-items: center;
   gap: 15px;
   margin-top: -0.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.7rem;
 }
 
 .input_birthday{
@@ -118,6 +119,7 @@ select{
   border-radius: 10px;
   border: 1px solid #4D4DFF;
   background-color: #dfe9f5;
+  outline-color: #000080;
 }
 
 .submit-box{
@@ -138,13 +140,13 @@ select{
 
 .input-submit:hover{
   cursor: pointer;
-  background-color: #c6e6fb;
+  background-color: #77d1ef;
   color: black;
   border: 2px solid #4D4DFF;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1380px){
    body{
     background: #73A6C9;
    }
