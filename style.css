@@ -215,12 +215,15 @@ select{
 
 @media screen and (max-width: 1024px){
   .container{
-    width: 90%;
     height: auto;
   }
 
    .input_group{
     flex-direction: column;
+    overflow-y: scroll;
+    flex-wrap: nowrap;
+    max-height: 10rem;
+    padding-right: 3rem;
    }
 
 }
