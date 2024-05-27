@@ -23,6 +23,10 @@ header{
   height: 80px;
 }
 
+.container{
+  padding-bottom: 1.5rem;
+}
+
 .form-image{
   display: none;
 }
@@ -123,7 +127,7 @@ select{
 }
 
 .input-submit{
-  margin-top: -0.2rem;
+  margin-top: 0.5rem;
   padding: 0;
   text-align: center;
   width:250px;
@@ -183,12 +187,32 @@ select{
     height: auto;
   }
 
+  form{
+    padding: 0.5rem 3rem;
+  }
+
    .input_group:nth-child(even) {
     flex-direction: column;
     overflow-y: scroll;
+    scrollbar-width: thin; 
+    scrollbar-color: #000080;
     flex-wrap: nowrap;
     max-height: 10rem;
     padding-right: 3rem;
    }
 
+  .input_group::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .input_group::-webkit-scrollbar-track {
+    background: #dfe9f5;
+  }
+  
+  .input_group::-webkit-scrollbar-thumb {
+    background-color: #000080; 
+    border-radius: 10px;
+    border: 2px solid #dfe9f5;
+  }
+  
 }
