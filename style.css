@@ -216,3 +216,34 @@ select{
   }
   
 }
+
+@media screen and (max-width: 615px) {
+  input{
+    height: 28px;
+    padding: 0.4rem 0.5rem;
+    max-height: 85%;
+  }
+
+  select{
+    height: 28px;
+    padding: 0;
+    margin-top: 0.17rem;
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  input{
+    max-height: 10rem;
+  }
+}
+
+@media screen and (max-width: 455px) {
+  h2{
+    font-size: 1.4rem;
+  }
+
+  fieldset{
+    display: none;
+  }
+}
