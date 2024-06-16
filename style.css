@@ -182,7 +182,7 @@ select{
   }
 }
 
-@media screen and (max-width: 845px){
+@media screen and (min-width: 615px){
   .container{
     height: auto;
   }
@@ -217,7 +217,7 @@ select{
   
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (min-width: 569px) {
   input{
     height: 28px;
     padding: 0.4rem 0.5rem;
@@ -232,7 +232,7 @@ select{
   }
 }
 
-@media screen and (max-width: 569px) {
+@media screen and (min-width: 455px) {
   input{
     max-height: 10rem;
   }
