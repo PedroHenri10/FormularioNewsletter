@@ -182,7 +182,7 @@ select{
   }
 }
 
-@media screen and (min-width: 615px){
+@media screen and (min-width: 615px) and (max-width: 845px){
   .container{
     height: auto;
   }
@@ -216,12 +216,13 @@ select{
   }
   
 }
+  
+  @media screen and (max-width: 615px) {
 
-@media screen and (min-width: 569px) {
   input{
     height: 28px;
     padding: 0.4rem 0.5rem;
-    max-height: 85%;
+    max-width: 85%;
   }
 
   select{
@@ -230,20 +231,93 @@ select{
     margin-top: 0.17rem;
     max-width: 85%;
   }
-}
 
-@media screen and (min-width: 455px) {
-  input{
-    max-height: 10rem;
+  .input_group:nth-child(odd){
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-height: 5rem;
+  padding-right: 3rem;
   }
-}
-
-@media screen and (max-width: 455px) {
+  
+  .input_group:nth-child(odd) {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #000080;
+  }
+  
+  .input_group::-webkit-scrollbar {
+  width: 12px;
+  }
+  
+  .input_group::-webkit-scrollbar-track {
+  background: #dfe9f5;
+  }
+  
+  .input_group::-webkit-scrollbar-thumb {
+  background-color: #000080;
+  border-radius: 10px;
+  border: 2px solid #dfe9f5;
+  }
+  
+  }
+  
+  @media screen and (max-width: 466px) {
   h2{
-    font-size: 1.4rem;
+  font-size: 1.4rem;
   }
-
+  
+  .input_group:nth-child(even){
+  padding-right: 0.5rem;
+  max-height: 10rem;
+  }
+  
+  .input_group:nth-child(even){
+  padding-right: 0.5rem;
+  max-height: 8.5rem;
+  }
+  
   fieldset{
-    display: none;
+  display: none;
   }
-}
+  
+  label{
+  font-size: 12px;
+  }
+  }
+  
+  @media screen and (max-width: 433px) {
+  h2{
+  font-size: 1.1rem;
+  }
+  
+  .input_group{padding-right: 0.5rem;
+  max-height: 10rem;
+  }
+  
+  .birthday_box {
+  display: none;
+  }
+  
+  .input-submit {
+  width: 180px;
+  }
+  
+  }
+  
+  @media screen and (max-width: 365px) {
+  .logo {
+  width: 60px;
+  height: 60px;
+  }
+  h1{
+  font-size: 1.6rem;
+  }
+  
+  form {
+  min-height: 70vh;
+  padding: 0rem 1.75rem;
+  }
+  h2{
+  font-size: 0.9rem;
+  }
+  }
