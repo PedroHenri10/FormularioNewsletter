@@ -219,6 +219,10 @@ select{
   
   @media screen and (max-width: 615px) {
 
+    h2{
+      margin-bottom: 0.8rem;
+    }
+
   input{
     height: 28px;
     padding: 0.4rem 0.5rem;
@@ -235,8 +239,7 @@ select{
   .input_group{
   flex-direction: column;
   flex-wrap: nowrap;
-  max-height: 5rem;
-  padding-right: 3rem;
+  max-height: 8rem;
   }
   
   .input_group{
@@ -259,10 +262,6 @@ select{
   border: 2px solid #dfe9f5;
   }
   
-  }
-
-  @media screen and (max-width: 570px) {
-    
   }
   
   @media screen and (max-width: 466px) {
@@ -287,11 +286,16 @@ select{
   label{
   font-size: 12px;
   }
+
+  .input-submit{
+    margin-top: 0.8rem;
+  }
   }
   
   @media screen and (max-width: 433px) {
   h2{
   font-size: 1.1rem;
+  margin-bottom: 1.6rem;
   }
   
   .input_group:nth-child(even){
