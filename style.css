@@ -270,12 +270,12 @@ select{
   font-size: 1.4rem;
   }
   
-  .input_group:nth-child(even){
+  .input_group{
   padding-right: 0.5rem;
   max-height: 10rem;
   }
   
-  .input_group:nth-child(even){
+  .input_group{
   padding-right: 0.5rem;
   max-height: 8.5rem;
   }
