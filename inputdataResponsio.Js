@@ -1,8 +1,8 @@
 window.onload = function() {
 
-    const mediaQuery = window.matchMedia('()');
+    const mediaQuery = window.matchMedia('(min-width: 433px)');
 
-    const input_group = document.querySelector('.input-group');
+    const input_group = document.querySelector('.input_group');
     const birthday_box = document.querySelector('.birthday_box');
     const originalInput_group = input_group.innerHTML;
 
@@ -52,5 +52,5 @@ window.onload = function() {
 
     handleMediaQuery(mediaQuery);
 
-mediaQuery.addEventListener()
+mediaQuery.addListener(handleMediaQuery);
 }
