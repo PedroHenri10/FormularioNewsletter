@@ -303,9 +303,9 @@ select{
   max-height: 10rem;
   }
   
-  .birthday_box {
+  /*.birthday_box {
   display: none;
-  }
+  }*/
   
   .input-submit {
   width: 180px;
