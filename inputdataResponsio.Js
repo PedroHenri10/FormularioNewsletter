@@ -1,6 +1,6 @@
 window.onload = function() {
 
-    const mediaQuery = window.matchMedia('(min-width: 433px)');
+    const mediaQuery = window.matchMedia('(max-width: 433px)');
 
     const input_group = document.querySelector('.input_group');
     const birthday_box = document.querySelector('.birthday_box');
