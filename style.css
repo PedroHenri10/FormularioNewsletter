@@ -306,7 +306,13 @@ select{
   .birthday_box {
   display: none;
   }
-  
+
+  .new-input-group .birthday_box{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+  }
+    
   .input-submit {
   width: 180px;
   }

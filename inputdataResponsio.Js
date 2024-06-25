@@ -1,6 +1,6 @@
 window.onload = function() {
 
-    const mediaQuery = window.matchMedia('(min-width: 433px)');
+    const mediaQuery = window.matchMedia('(max-width: 433px)');
 
     const input_group = document.querySelector('.input_group');
     const birthday_box = document.querySelector('.birthday_box');
@@ -40,9 +40,9 @@ window.onload = function() {
                 <input type="password" name="passwordagain" id="passwordagain" placeholder="Confirm your password" required>
                 </div>
 
-                <div class="birthday_box">
+               <div class="birthday_box">
                     ${birthday_box.innerHTML}
-                </div>
+               </div>
 </div>`;
             input_group.innerHTML = input_groupInCellphone;
         }else{
