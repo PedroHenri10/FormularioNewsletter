@@ -40,9 +40,9 @@ window.onload = function() {
                 <input type="password" name="passwordagain" id="passwordagain" placeholder="Confirm your password" required>
                 </div>
 
-                <div class="birthday_box">
+               <div class="birthday_box">
                     ${birthday_box.innerHTML}
-                </div>
+               </div>
 </div>`;
             input_group.innerHTML = input_groupInCellphone;
         }else{
