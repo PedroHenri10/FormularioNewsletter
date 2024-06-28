@@ -300,7 +300,7 @@ select{
   
   .input_group:nth-child(even){
   padding-right: 0.5rem;
-  max-height: 20rem;
+  max-height: 24rem;
   }
   
   .birthday_box {
