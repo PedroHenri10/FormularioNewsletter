@@ -4,7 +4,8 @@ window.onload = function() {
 
     const input_group = document.querySelector('.input_group');
     const birthday_box = document.querySelector('.birthday_box');
-    const originalInput_group = input_group.innerHTML;
+   
+    const originalInput_group = input_group.cloneNode(true);
 
     function handleMediaQuery(e) {
         if (e.matches) {
