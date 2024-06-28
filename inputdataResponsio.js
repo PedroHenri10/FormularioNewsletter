@@ -85,8 +85,8 @@ window.onload = function() {
 
 `;
             input_group.innerHTML = input_groupInCellphone;
-        }else{
-            input_group.innerHTML = originalInput_group;
+        }else{S
+            input_group.innerHTML = originalInput_group.innerHTML;
         }
     }
 
