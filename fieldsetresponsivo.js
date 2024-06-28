@@ -2,10 +2,12 @@ window.onload = function() {
 
     const mediaQuery = window.matchMedia('(max-width: 614px)');
     const fieldesetTechNews = document.getElementsByTagName("fieldset")[0];
-    const originalFieldset = fieldesetTechNews.innerHTML;
+
+    const originalFieldsetContent = fieldesetTechNews.cloneNode(true);
 
     function handleMediaQuery(e) {
         if (e.matches) {
+            
             const fieldsetInCellphone = `
             <legend>What are your interests:</legend>
 
@@ -13,7 +15,7 @@ window.onload = function() {
             <input type="checkbox" name="consoles" id="consoles" value="consoles" class="input_ckeckbox">
             
             <label for="cellphone">Cellphone</label>
-            <input type="checkbox" name="cellphone" id="cellphone" value="cellphone" class="input_ckeckbox"><br>
+            <input type="checkbox" name="cellphone" id="cellphone" value="cellphone" class="input_ckeckbox"> <br>
 
             <label for="computer_laptop">Computer/laptop</label>
             <input type="checkbox" name="computer_laptop" id="computer_laptop" value="computer_laptop" class="input_ckeckbox">
@@ -29,12 +31,12 @@ window.onload = function() {
             `;
             fieldesetTechNews.innerHTML = fieldsetInCellphone;
         }else{
-            fieldesetTechNews.innerHTML = originalFieldset;
+            fieldesetTechNews.innerHTML = originalFieldsetContent.innerHTML;
         }
     }
 
     handleMediaQuery(mediaQuery);
 
-    mediaQuery.addEventListener('change', handleMediaQuery);
+    mediaQuery.addListener(handleMediaQuery);
 
 }

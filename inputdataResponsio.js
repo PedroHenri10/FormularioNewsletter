@@ -43,7 +43,46 @@ window.onload = function() {
                <div class="birthday_box">
                     ${birthday_box.innerHTML}
                </div>
-</div>`;
+
+                <div class="input-box-left">
+                <label for="address" class="label-address"> Address </label>
+                <input class="address" type="text" name="address" id="address" placeholder="type your address">
+                </div>
+
+                <div class="input-box-right">
+                <label for="state" class="label-state">State</label>
+                <select name="state" id="statecell">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                </select>
+</div>
+
+`;
             input_group.innerHTML = input_groupInCellphone;
         }else{
             input_group.innerHTML = originalInput_group;
