@@ -4,7 +4,7 @@ Este projeto é um **formulário de inscrição para uma newsletter de tecnologi
 O foco principal foi criar uma **interface de usuário limpa, moderna e totalmente responsiva**, que se adapta perfeitamente a uma ampla gama de dispositivos — desde desktops com telas grandes até os menores smartphones.
 
 ### Desktop
-![Preview Desktop](https://raw.githubusercontent.com/PedroHenri10/FormularioNewsletter/main/src/img/tmp_62e034fe-6463-4788-ba88-7f1e9c9b830a.png)
+![Preview Desktop](https://github.com/PedroHenri10/FormularioNewsletter/blob/main/src/img/tmp_62e034fe-6463-4788-ba88-7f1e9c9b830a.png))
 
 ### Mobile
 ![Preview Mobile](https://raw.githubusercontent.com/PedroHenri10/FormularioNewsletter/main/src/img/Screenshot_20251022-140556.jpg)
